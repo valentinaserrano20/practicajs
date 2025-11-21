@@ -1,13 +1,10 @@
-let tributar = confirm("Desea tributar o no");
+let edad = parseInt(prompt("ingrese su edad:"));
+let ingresos = parseFloat(prompt("digite sus ingresos mensuales: "));
 
-if (tributar){
-
-    let edad = ParseInt(prompt("Ingrese la edad"));
-    let ingresos = ParseInt(prompt("Digite sus ingresos"));
-
-    if (edad )
-
+if (edad > 16 && ingresos >= 1000) {
+  console.log("Debe tributar");
 }
-else{
-    console.log("no desea tributar");
+else {
+  console.log("no debe tributar");
 }
+
