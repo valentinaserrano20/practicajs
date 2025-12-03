@@ -8,7 +8,6 @@ for (i = 1; i <= cantidad; i++){
 }
 
 const calcularMedia = arregloNumeros => {
-
   let sumas = 0;
   for (const number of arregloNumeros) {
     sumas += number;
@@ -17,6 +16,5 @@ const calcularMedia = arregloNumeros => {
 };
 
 console.log((calcularMedia(numeros)));
-
 
 
